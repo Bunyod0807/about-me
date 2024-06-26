@@ -1,0 +1,128 @@
+body{
+    background-color:#191919 ;
+    font-family: 'poppins',sans-serif;
+    color: #D9D9D9;
+}
+.main-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid white;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container a {
+    text-decoration: none;
+    color: #a7a7a7;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    gap: 3rem;
+}
+.links-container{
+    display: flex;
+    gap: 3rem;
+}
+.social-links{
+    display: flex;
+    gap: 1.5rem;
+}
+h1{
+    font-size: 58px;
+    font-weight: bold;
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+}
+.gradient-text{
+  background: -webkit-linear-gradient(right,#13b0f5, #e70faa);  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#tech-stack{
+    text-align: center;
+}
+.techs-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows:1fr 1fr ;
+    padding: 6rem 0;
+}
+h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+h3{
+    font-size: 32px;
+    font-weight: 300;
+}
+#projects{
+    text-align: center;
+    padding: 6rem 0;
+}
+.project-card{
+    background-color: #363636;
+    padding-bottom: 2rem;
+    border-radius: 20px;
+
+}
+.projects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2REM;
+}
+.projects-img{
+    width: 100%;
+}
+h4{
+    font-size: 28px;
+    font-weight: 400;
+}
+p{
+    font-size: 18px;
+}
+.project-links{
+    display: flex;
+    justify-content: space-around;
+
+}
+.project-links a{
+    color: #ffffff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.project-info{
+    text-align: left;
+    padding: 0 2rem;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-info{
+   display: flex;
+   align-items: center; 
+   gap: 4rem;
+}
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-bottom a{
+     text-decoration: none;
+     color: #a7a7a7;
+     font-size: 20px;
+}
